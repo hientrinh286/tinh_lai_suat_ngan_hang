@@ -9,6 +9,6 @@ else if (6<month & month <12) {
 else {
     rate = 0.1}
 sum = loan + loan*rate;
-document.write('Số tiền bạn vay là: '+loan+'<br>');
+document.write('Số tiền bạn vay là: '+loan+ 'Triệu Đồng'+'<br>');
 document.write('Thời hạn bạn vay là: '+ month +' tháng.'+'<br>');
 document.write('Số tiền bạn phải trả sau ' +month + ' tháng là:'+sum +' Triệu Đồng');
