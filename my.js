@@ -9,4 +9,6 @@ else if (6<perd & perd <12) {
 else {
     rate = 0.1}
 sum = loan + loan*rate;
+document.write('Số tiền bạn vay là: '+loan);
+document.write('Thời hạn bạn vay là: '+ perd +' tháng.');
 document.write('Số tiền bạn phải trả sau ' +perd + ' tháng là:'+sum ' Triệu Đồng')
